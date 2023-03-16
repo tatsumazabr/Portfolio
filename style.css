@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+form {
+  margin-top: 50px;
+}
+
+input[type="text"] {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  text-align: right;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+input[type="button"] {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.number-button {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.operator-button {
+  background-color: #f7d794;
+  color: #333;
+}
+
+.clear-button {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.equal-button {
+  background-color: #2ecc71;
+  color: #fff;
+}

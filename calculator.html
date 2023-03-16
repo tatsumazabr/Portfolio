@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora Projeto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JavaScript Calculator</h1>
+  <form>
+    <input type="text" id="result" placeholder="0">
+    <br>
+    <input type="button" class="number-button" value="1" onclick="numberClick('1')">
+    <input type="button" class="number-button" value="2" onclick="numberClick('2')">
+    <input type="button" class="number-button" value="3" onclick="numberClick('3')">
+    <input type="button" class="operator-button" value="+" onclick="operatorClick('+')">
+    <br>
+    <input type="button" class="number-button" value="4" onclick="numberClick('4')">
+    <input type="button" class="number-button" value="5" onclick="numberClick('5')">
+    <input type="button" class="number-button" value="6" onclick="numberClick('6')">
+    <input type="button" class="operator-button" value="-" onclick="operatorClick('-')">
+    <br>
+    <input type="button" class="number-button" value="7" onclick="numberClick('7')">
+    <input type="button" class="number-button" value="8" onclick="numberClick('8')">
+    <input type="button" class="number-button" value="9" onclick="numberClick('9')">
+    <input type="button" class="operator-button" value="*" onclick="operatorClick('*')">
+    <br>
+    <input type="button" class="number-button" value="0" onclick="numberClick('0')">
+    <input type="button" class="clear-button" value="C" onclick="clearClick()">
+    <input type="button" class="equal-button" value="=" onclick="equalClick()">
+    <input type="button" class="operator-button" value="/" onclick="operatorClick('/')">
+  </form>
+  <script src="calculator.js"></script>
+</body>
+</html>
